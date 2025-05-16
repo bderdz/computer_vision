@@ -1,5 +1,5 @@
 import cv2
-from viewer import Viewer, BrightnessViewer
+from viewer import Viewer, BrightnessViewer, BlurViewer, MedianViewer, HsvViewer
 
 
 def ex1():
@@ -33,7 +33,7 @@ def ex3():
 
 
 def ex4():
-    viewer = BrightnessViewer()
+    viewer = BlurViewer()
     viewer.run()
 
 
